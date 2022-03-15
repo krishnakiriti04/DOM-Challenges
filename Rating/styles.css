@@ -1,0 +1,42 @@
+.fa-star-o:before {
+    content: "\f006";
+    color: #5f6368;
+    margin-right: 5px;
+}
+
+.fa-star:before {
+    content: "\f005";
+    color: #d56e0c;
+    margin-right: 5px;
+}
+
+.heading{
+    text-align: center;
+}
+
+#star{
+    display: flex;
+    line-height: 1.5rem;
+    font-size: 64px;
+    justify-content: space-between;
+    /* margin-bottom: 40px; */
+}
+
+#display-star{
+    font-size: 28px;
+    font-weight: bold;
+    margin-left: 5px;
+}
+
+body{
+ box-sizing: border-box;   
+ margin: 10px;
+ padding: 0;
+}
+
+.container{
+    position: absolute;
+    left: 50%;
+    top:50%;
+    transform: translate(-50%,-50%);
+}
