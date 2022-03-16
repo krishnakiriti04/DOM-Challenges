@@ -1,0 +1,35 @@
+.row{
+    display: flex;
+  }
+  
+  .row > div{
+    height: 50px;
+    width: 50px;
+    color: #333;
+    border: 1px solid black;
+    margin: 2px;
+  }
+  
+  .heading{
+    text-align: left;
+  }
+  
+  #grid{
+    border: 1px solid black;
+  }
+  
+  .container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .special{
+    opacity: 0.8;
+  }
+
+  .errorMessage{
+      color: red;
+      margin-top: 5px;
+  }
