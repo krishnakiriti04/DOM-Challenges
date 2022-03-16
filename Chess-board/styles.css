@@ -1,0 +1,26 @@
+.container{
+    margin: 10px;
+    /* border: 1px solid black; */
+    position: absolute;
+    left:50%;
+    top:50%;
+    transform: translate(-50%,-50%);
+}
+
+.dark{
+    background-color: #111;
+}
+
+.row{
+    display: flex;
+}
+
+.col{
+    height: 50px;
+    width: 50px;
+    border: 1px solid black;
+}
+
+.highlight{
+    background-color: rgb(202, 5, 5);
+}
